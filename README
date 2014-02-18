@@ -1,7 +1,7 @@
 Mojolicious-Plugin-BcryptPassword version 1.0.0
 
     This module provides helper functions via a mojolicious plugin to hash passwords using bcrypt and to verify a password against a hashed value.  
-    I took some of the open source code from Stefan G's Mojolicious::Plugin::Bcrypt and modified it to use a more straight forward random salt method and a better verification method to protect against timing attacks that I found on a gist at https://gist.github.com/gcrawshaw/1071698 
+    I integrated some of the open source code from Stefan G's Mojolicious::Plugin::Bcrypt and modified it to use a more straight forward random salt method and a better verification method to protect against timing attacks that I found on a gist at https://gist.github.com/gcrawshaw/1071698 
 
 
 INSTALLATION
