@@ -1,0 +1,32 @@
+Mojolicious-Plugin-BcryptPassword version 1.0.0
+
+    This module provides helper functions via a mojolicious plugin to hash passwords using bcrypt and to verify a password against a hashed value.  
+    I took some of the open source code from Stefan G's Mojolicious::Plugin::Bcrypt and modified it to use a more straight forward random salt method and a better verification method to protect against timing attacks that I found on a gist at https://gist.github.com/gcrawshaw/1071698 
+
+
+INSTALLATION
+
+To install via cpanm
+
+ cpanm git://github.com/tvmaly/Mojolicious-Plugin-BcryptPassword.git
+
+To install this module from local source, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+DEPENDENCIES
+
+Mojolicious
+Crypt::Random
+Crypt::Eksblowfish::Bcrypt
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2014, Tyson Maly
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
